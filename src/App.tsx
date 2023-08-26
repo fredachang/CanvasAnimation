@@ -1,7 +1,5 @@
 import "./App.css";
-import { BasicCanvas } from "./components/BasicCanvas";
 import { P5Canvas } from "./components/p5";
-import { drawArt } from "./utils/drawArt";
 
 function App() {
   return (

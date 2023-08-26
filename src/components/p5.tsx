@@ -6,7 +6,7 @@ interface ComponentProps {
   // Your component props
 }
 
-export const P5Canvas: React.FC<ComponentProps> = (props: ComponentProps) => {
+export const P5Canvas: React.FC<ComponentProps> = () => {
   const setup = (p5: p5Types, canvasParentRef: Element) => {
     //defines the resolution of the graphics, higher the more refined
     p5.pixelDensity(10);
